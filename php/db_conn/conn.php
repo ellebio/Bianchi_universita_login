@@ -2,7 +2,8 @@
 
 $conn = null;
 
-function connect(){
+function connect()
+{
 
     require_once("config.php");
 
