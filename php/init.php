@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,21 +8,22 @@
     <title>Pagina iniziale</title>
     <link rel="stylesheet" href="../style/style.css">
 </head>
+
 <body>
     <div id="initial-section">
 
-<?php
-    require_once("cookieHandler.php");
+        <?php
+        require_once("cookieHandler.php");
 
-    $user = "ospite";
-    $res = myReadCookie();
+        $user = "ospite";
+        $res = myReadCookie();
 
-    if($res != false){
-        $user = $res;
-    }
+        if ($res != false) {
+            $user = $res;
+        }
 
-    echo("<h3>Benvenutə $user!</h3>");
-?>
+        echo ("<h3>Benvenutə $user!</h3>");
+        ?>
 
         <a href="insert.php"><button id="submit-input">Inserisci studente</button></a><br>
         <a href=""><button id="submit-input">Modifica studente</button></a><br>
@@ -32,4 +34,5 @@
 
     </div>
 </body>
+
 </html>

@@ -14,6 +14,7 @@ function mySetCookie($user)
     setcookie("username", $user, time() + (60 * 60 * 24 * 30), "/");
 }
 
-function myDeleteCookie(){
+function myDeleteCookie()
+{
     setcookie("username", null, -1, "/");
 }
