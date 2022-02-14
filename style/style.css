@@ -1,0 +1,95 @@
+#login-section,
+#initial-section,
+#error-section,
+#result-section,
+#end-section {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #ffffff;
+    width: 25%;
+    height: 95%;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    line-height: 30px;
+}
+
+#login-section {
+    background-image: linear-gradient(to bottom right, #00f260, #2190ff);
+}
+
+#initial-section {
+    background-image: linear-gradient(to bottom right, purple, cyan);
+}
+
+#error-section {
+    background-image: linear-gradient(to bottom right, #ff0, #f00);
+}
+
+#result-section {
+    background-image: linear-gradient(to bottom right, #0a9396, #001219);
+}
+
+#end-section {
+    background-image: linear-gradient(to bottom right, #c200fb, #fc2f00);
+}
+
+#login-title,
+#username-label,
+#password-label,
+#search-title,
+#nome-label,
+#cognome-label,
+#primi-label,
+#primo-label,
+#secondi-label,
+#secondo-label,
+#dolce-label,
+#note-label,
+#end-title,
+option {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#submit-input,
+#reset-input,
+#username-input,
+#password-input,
+#search-again-button,
+#primo-input,
+#secondo-input,
+#dolce-select,
+#error-button,
+#note-text,
+#confirm-button,
+#nome-input,
+#cognome-input {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+#login-title,
+#initial-title,
+#search-title,
+#result-title,
+#end-title {
+    margin-top: 10px;
+    margin-bottom: 20px
+}
+
+#error-image {
+    height: 200px;
+    width: 200px;
+    -webkit-user-drag: none;
+}
+
+#error-paragraph {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+}
