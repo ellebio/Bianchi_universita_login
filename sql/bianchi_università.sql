@@ -20,3 +20,10 @@ CREATE TABLE Studente (
     ),
     PRIMARY KEY (matricola)
 );
+
+INSERT INTO
+    Creds (user, pwd)
+VALUES
+    ("user1", "pw1"),
+    ("user2", "pw2"),
+    ("user3", "pw3");
