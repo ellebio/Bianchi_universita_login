@@ -1,7 +1,5 @@
 <?php
 
-$conn = null;
-
 function connect()
 {
 
